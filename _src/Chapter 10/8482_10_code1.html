@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Piwik Dashboard Widget</title>
+	<style type="text/css">
+        html, body { margin: 0; padding: 0; height: 100%; }
+        iframe {
+		position: absolute;
+		top: 0; left: 0; width: 100%; height: 100%;
+		border: none; padding-top: 32px;
+		box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+	<iframe src="http://YOUR_PIWIK_URL?module=Widgetize&action=iframe&moduleToWidgetize=Dashboard&actionToWidgetize=index&idSite=YOUR_SITE_ID&period=week&date=yesterday" frameborder="0" marginheight="0" marginwidth="0" width="100%" height="100%"></iframe>
+</body>
+</html>

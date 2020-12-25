@@ -1,0 +1,1 @@
+piwikTracker.setCustomVariable (index, name, value, scope);

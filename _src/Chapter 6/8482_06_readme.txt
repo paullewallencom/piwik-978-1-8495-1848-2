@@ -1,0 +1,52 @@
+8482_06 - Chapter 6 - Tracking Events
+
+8482_06_01.js
+    - piwikTracker.setCustomVariable function
+    
+8482_06_02.js
+	- piwikTracker.setCustomVariable for video play
+	
+8482_06_03.js
+	- piwikTracker.setCustomVariable for video pause
+	
+8482_06_04.js
+	- piwikTracker.setCustomVariable for video that has been tweeted
+	
+8482_06_05.js
+	- piwikTracker.setCustomVariable for simple banner click
+	
+8482_06_06.js
+	- piwikTracker.setCustomVariable for tracking clicks with multiple banners on the page
+	
+8482_06_07.js
+	- piwikTracker.setCustomVariable for tracking clicks with multiple banners on the page continued
+	
+8482_06_08.js
+	- piwikTracker.setCustomVariable for tracking clicks with multiple banners on the page continued
+	
+8482_06_09.htm
+	- Using trackLink after setCustomVariable on onclick events
+	
+8482_06_10.htm
+	- Example page with buttons before any event tracking
+	
+8482_06_11.htm
+	- Example page with Facebook and Twitter event tracking
+	
+8482_06_12.htm
+	- Example page with Facebook, Twitter, and a submit button's event tracking
+	
+8482_06_13.htm
+	- Example page with comment submission event tracking
+	
+8482_06_14.as
+	- Using Piwik custom variables in ActionScript 2
+	
+8482_06_15.as
+	- Using Piwik custom variables in ActionScript 3
+	
+8482_06_16.htm
+	- Flash embed example
+	
+8482_06_17.htm
+	- Using custom variables for page load time tracking.

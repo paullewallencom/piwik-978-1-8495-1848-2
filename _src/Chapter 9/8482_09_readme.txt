@@ -1,0 +1,28 @@
+8482_09 - Chapter 9 - Advanced Tracking and Development
+
+8428_09_code1.js
+    - Standard Piwik tracking code
+	
+8428_09_code2.html
+	- Piwik image tracking code
+
+8428_09_code3.php
+	- Including the PiwikTracker.php file in another PHP file.
+	
+8428_09_code4.html
+	- Trigger Piwik to track a link with onclick
+
+8428_09_code5.php
+	- Triggering a download action with Piwik JavaScript
+
+8428_09_code6.php
+	- Triggering a download action with PiwikTracker.php
+
+8428_09_code7.php
+	- Generating an tracking image url using PiwikTracker.php
+
+8428_09_code8.php
+	-
+
+8428_09_AlexaWidget9.zip
+	- A very simple Alexa graph Piwik dashboard widget

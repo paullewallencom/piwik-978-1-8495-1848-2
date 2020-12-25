@@ -1,0 +1,31 @@
+8482_01 - Chapter 1 - Installation and Setup
+
+8428_01_code1.sh
+    - Installing Piwik via SSH Example Code
+    - Replace 'DocumentRoot' with your servers document root.
+    - Replace 'NEW_FOLDER' with the subdirectory you want to move Piwik to
+    
+8428_01_code2.sh
+    - Creating a Piwik data SSH code
+    - Replace USERNAME with your mysql username
+    - Replace PASSWORD with your mysql password
+    - Replace localhost with mysql server, if necessary
+    
+8428_01_code3.php
+    - Checking your php info
+    
+8428_01_code4.ini
+    - Example php.ini file
+    - Probably should not be used in production because your php installation may have more configuration options. Example only.
+    
+8428_01_code5.sh
+    - Fixing Piwik files permissions through SSH
+    - Change 'www-data' to the user of your Apache or Nginx server
+    - Change 'piwik' to the name of your Piwik folder
+    
+8428_01_code6.php
+    - Example of forcing SSL usage in /config/config.ini.php file
+    
+8428_01_code7.sh
+    - Code to update Piwik via SSH
+    - Replace '/path/to/piwik/index.php' with the path to the index file in your Piwik installation

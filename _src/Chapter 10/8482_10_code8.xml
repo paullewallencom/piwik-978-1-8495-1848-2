@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<result>
+	<row>
+		<label> Google Scraper Footprint Finder</label>
+		<nb_visits>15</nb_visits>
+		<nb_uniq_visitors>14</nb_uniq_visitors>
+		<nb_hits>19</nb_hits>
+		<sum_time_spent>228</sum_time_spent>
+		<entry_nb_uniq_visitors>14</entry_nb_uniq_visitors>
+		<entry_nb_visits>15</entry_nb_visits>
+		<entry_nb_actions>23</entry_nb_actions>
+		<entry_sum_visit_length>354</entry_sum_visit_length>
+		<entry_bounce_count>10</entry_bounce_count>
+		<exit_nb_uniq_visitors>12</exit_nb_uniq_visitors>
+		<exit_nb_visits>13</exit_nb_visits>
+		<avg_time_on_page>15</avg_time_on_page>
+		<bounce_rate>67%</bounce_rate>
+		<exit_rate>87%</exit_rate>
+	</row>
+</result>

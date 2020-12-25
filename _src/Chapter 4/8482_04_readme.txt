@@ -1,0 +1,10 @@
+8482_04 - Chapter 4 - Setting Up and Tracking Goals
+
+8428_04_code1.html
+    - Example subscription page before adding goal tracking
+	
+8428_04_code2.html
+    - Example subsription page after adding goal tracking
+	
+8428_04_code3.html
+    - Example of instantly triggering a goal on page load

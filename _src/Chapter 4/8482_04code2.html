@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>My Subscription Page</title>
+</head>
+<body>
+  <form method="post">
+    <table class="mySubscriptionForm" border="0" cellpadding="2">
+      <tbody>
+        <tr>
+          <td>First Name:</td>
+
+          <td><input id="firstname" name="firstname" size="50" type="text" /></td>
+        </tr>
+
+        <tr>
+          <td>Last Name:</td>
+
+          <td><input id="lastname" name="lastname" size="50" type="text" /></td>
+        </tr>
+
+        <tr>
+          <td>Your email address:</td>
+
+          <td><input name="email" type="text" /></td>
+        </tr>
+
+        <tr>
+          <td><input type="submit" value="Subscribe" onclick="piwikTracker.trackGoal(1,1);"/></td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+  <!-- Piwik --> 
+	<script type="text/javascript">
+	var pkBaseURL = (("https:" == document.location.protocol) ? "https:$MyPiwikUrl" : "http://$MyPiwikUrl");
+	document.write(unescape("%3Cscript src='" + pkBaseURL + "js/' type='text/javascript'%3E%3C/script%3E"));
+	</script><script type="text/javascript">
+	try {
+	  var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 5);
+	  piwikTracker.trackPageView();
+	  piwikTracker.enableLinkTracking();
+	} catch( err ) {}
+	</script><noscript><p><img src="http://ec2-50-19-0-18.compute-1.amazonaws.com/piwik/piwik.php?idsite=5" style="border:0" alt="" /></p></noscript>
+	<!-- End Piwik Tracking Code -->
+</body>
+</html>

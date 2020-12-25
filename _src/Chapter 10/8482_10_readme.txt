@@ -1,0 +1,34 @@
+8482_10 - Chapter 10 - Piwik Integration
+
+8428_10_code1.html
+    - Full dashboard widget embedded in a web page, with CSS for 100% heighth IFRAME
+	
+8428_10_code2.html
+    - All websites widget embed
+	
+8428_10_code3.html
+    - All websites widget embed with user token_auth
+
+8428_10_code4.html
+	- Entry Page titles widget code
+
+8428_10_code5.html
+	- Entry Page titles widget code modified for todays data, a month range and Spanish
+	
+8428_10_code6.php
+	- Calling the Piwik API locally
+	
+8428_10_code7.xml
+	- XML result of a call to the Referers.getKeywordsForPageUrl method in the Piwik API
+	
+8428_10_code8.xml
+	- XML result of a call to the Actions.getEntryPageTitles method in the Piwik API
+	
+8428_10_code9.html
+	- Piwik graph image from API call.
+	
+8428_10_code10.php
+	- Using PHP curl and json_decode to retrieve your data.
+
+8428_10_code11.php
+    - Website Change Log with stats from Piwik

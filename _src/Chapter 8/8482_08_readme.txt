@@ -1,0 +1,10 @@
+8482_08 - Chapter 8 - Piwik Website and User Administration
+
+8428_01_code1.js
+    - setDocumentTitle example for tracking multiple domains or subdomains on the same website
+    
+8428_01_code2.js
+    - setCookieDomain and setDomains example for tracking multiple domains or subdomains on the same website
+    
+8428_08_Signup3.zip
+    - Piwik Signup plugin

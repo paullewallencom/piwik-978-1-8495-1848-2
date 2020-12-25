@@ -1,0 +1,139 @@
+8482_03 - Chapter 3 - Tracking Visitors with Piwik
+
+8428_03_code1.js
+    - Standard Piwik JavaScript Tracking Code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code2.html
+    - Example of manually triggering page views with onclick
+	
+8428_03_code3a.js
+    - Example of using addListener in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code3b.js
+	-Same results as above but using JQuery to trigger a page view
+	
+8428_03_code4.js
+    - Example of using setDocumentTitle in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code5.js
+    - Example of using setDocumentTitle to include subdomain name in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code6.js
+    - Example of using setDocumentTitle with PHP to dynamically create title in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code7.js
+    - Example of using setCustomUrl in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code8.js
+    - Example of using setCookieDomain and setDomains in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code9.js
+    - Example of using two trackers in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code10.html
+    - Example of using Piwik's builtin 'notrack' class
+	
+8428_03_code11.js
+    - Example of using setIgnoreClasses in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code12.html
+    - Example of using Piwik's builtin 'piwik_ignore' class
+	
+8428_03_code13.html
+    - Example of using Piwik's builtin 'piwik_download' class
+	
+8428_03_code14.js
+    - Example of using setDownloadClasses in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code15.html
+    - Example of using Piwik's builtin 'piwik_link' class
+	
+8428_03_code16.js
+    - Example of using setLinkClasses in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code17.js
+    - Example of using setDownloadExtensions in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code18.js
+    - Example of using addDownloadExtensions in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code19.js
+    - Example of using setLinkTrackingTimer in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code20.js
+    - Example of using setRequestMethod in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code21.js
+    - Example of using discardHashTag in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code22.js
+    - Example of using setCountPreRendered in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code23.js
+    - Example of using setDoNotTrack in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code24.js
+    - Example of using killFrame in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code25.js
+    - Example of using redirectFile in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code26.js
+    - Example of using setHeartBeatTimer in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+		
+8428_03_code27.js
+    - Example of using two trackers in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+	
+8428_03_code28.js
+    - Example of using setting site id and tracker url after tracker is created in Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik
+		
+8428_03_code29.js
+    - Example of using asyncronous Piwik's tracking code
+	- Replace $PIWIK_URL with the url of your Piwik installation
+	- Replace $SITE_ID with the id of the site being tracked in Piwik

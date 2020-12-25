@@ -1,0 +1,1 @@
+piwikTracker.setCustomVariable(2,"SidebarBanner","AddSlot1Click","page");

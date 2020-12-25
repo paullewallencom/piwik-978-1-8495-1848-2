@@ -1,0 +1,1 @@
+piwikTracker.setCustomVariable(1,"Video","Play","page");

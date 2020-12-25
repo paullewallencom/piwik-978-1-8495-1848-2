@@ -1,0 +1,33 @@
+<html>
+	<head>
+	<script type = "text/javascript">
+		var page_load_start = new Date();
+	</script>
+	<title>Title</title>
+	</head>
+	<body>
+	<h1>The Header</h1>
+	<p>The Body</p>
+	 <script type = "text/javascript">
+		var _paq = _paq || [];
+		window.onload = (function () {
+			var page_load_end = new Date();
+			var load_time = page_load_end.getTime() - page_load_start.getTime();
+			var u = ("https:" == document.location.protocol) ? "https://YOUR_PIWIK_URL" : "http://YOUR_PIWIK_URL";
+				_paq.push(['setSiteId', YOUR_SITE_ID]);
+				_paq.push(['setTrackerUrl', u + 'piwik.php']);
+				_paq.push(['setCustomVariable', 1, 'Landing Page Time', load_time, 'page']);
+				_paq.push(['trackPageView']);
+				_paq.push(['enableLinkTracking']);
+				var d = document,
+				g = d.createElement('script'),
+				s = d.getElementsByTagName('script')[0];
+				g.type = 'text/javascript';
+				g.defer = true;
+				g.async = true;
+				g.src = u + 'piwik.js';
+				s.parentNode.insertBefore(g, s);
+		});
+	</script>
+	</body>
+</html>
